@@ -28,7 +28,7 @@ So now let's begin the real configuration of the car, first you need to open "KC
 After that, in "KChassis", you will copy "Engine" Position from "CarModelExample" Model, and paste the position value to your car model, so you car model aligns with "Kchassis".  
 ![8](https://github.com/user-attachments/assets/c344baaf-06da-4a84-9e0b-d62991658aa4)
 #
-Next, you will move all parts from your car model, into "CarModelExample" Model.
+Next, you will move all parts from your car model, into "CarModelExample" Model.  
 ![9](https://github.com/user-attachments/assets/05eb564a-9cf1-4864-91b7-bbe151421903)
 #
 It should now look like this.  
