@@ -125,6 +125,8 @@ For all of theses you suggest you to go to this part to see how to [customize](h
 ![Enregistrement 2024-12-31 034028](https://github.com/user-attachments/assets/b87c5d4d-c5f0-48df-9c89-f7958e8debe3)
 
 ## Extras 💥
+### If you want to change the Engine sound, you can open the Kchassis model and go in "Engine" (KChassis/Engine/EngineSample), and in SoundId you can put a sound of your choice, it must be a revloop (prefereably at high rpm)
+![image](https://github.com/user-attachments/assets/a23def91-2651-40fa-a0ef-cf99d06bfb24)
 
 ### If you have headlights or brakelights parts you want to animate, you can rename them to "Headlights" and "Brakelights", the chassis will automatically recognize them and setup them automaticaly, but for now it must be a single part name like this for both situations, or just one part will work.
 
