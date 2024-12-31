@@ -1,4 +1,4 @@
-# K-Chassis
+![image](https://github.com/user-attachments/assets/3a8da978-b7b1-43b9-b2c4-1287e65b1a43)# K-Chassis
 Kchassis is a basic and free raycast chassis implementation for Roblox games, made by Kyariko  
 ![ezgif-7-2ad1702c3d_1](https://github.com/user-attachments/assets/e154403a-3ac1-4f00-bf3c-5f2fe59370ef)
 
@@ -70,6 +70,75 @@ For a first try, i suggest a empty baseplate to get the basics.
 For all of theses you suggest you to go to this part to see how to [customize](https://github.com/Kyariko/KChassis-for-Roblox/tree/main#%EF%B8%8F-customization) the config of your car to fix all details.  
 ![20](https://github.com/user-attachments/assets/1365c70a-9d21-49e9-930e-5b4f163a42ec)
 ## 🛠️ Customization
+
+### So, for now if you just finished the setup, then you should have this beautifull car waiting to be properly configurated.  
+![1](https://github.com/user-attachments/assets/d1139f5c-d236-4ae6-8c96-f49b82c6a31f)
+
+### 1. First let's go into the chassis then go to KChassis/CarScripts and then we gonna first open "CMain".  
+![2](https://github.com/user-attachments/assets/c72f467c-d550-49cd-b0ab-abc6c286803a)
+
+### 2. Then, once you open the script, it should look like this at the very top, it may be scary but don't worry we just changing few values to configure the car.
+![3](https://github.com/user-attachments/assets/ad9489cb-4f44-40d3-8f14-db2c0725f75a)
+
+### 3. This part is telling where the car is, for now it's in workspace, but if you put the car in a folder, like "Cars" for example, it would be something like:  
+```local CarLocation = workspace.Cars```
+![4](https://github.com/user-attachments/assets/0342620d-a0a2-4529-80c3-344ba65b17dc)
+
+### 4. From now on, you just have to change values here (we will see the exceptions later).
+![Capture d'écran 2024-12-31 025502](https://github.com/user-attachments/assets/b2b603b7-587e-4955-8906-0c4054542abd)
+
+### 5. First part called "Main", is where you can:  
+
+![5](https://github.com/user-attachments/assets/6bdf12c2-1dba-40d9-8451-2a1605a2a737)
+- Power = change Power of the car  
+- Gears = the amount of gears (needs to be above 1)  
+- MaxSpeed = set the maximum speed of the car  
+- Grip = the level of grip the car has while driving  
+- Handling = How strong/fast/easily the car turns  
+- ShiftingTime = How fast the car changes gears
+
+### 5. Second part called "Wheels", is where you can:  
+![6](https://github.com/user-attachments/assets/c3f1afd8-251b-4a2e-a97d-47eeba5de43b)
+
+- RimID = Specify the Id of the wheel model located in servertorage/Wheels/"YourWheelModel"/Main/ID  
+- F/R Height = Height of the car, F for front and R for Rear
+- F/R Size = Size of the car wheels, F for front and R for Rear  
+- F/R Thickness = Thickness of the car wheels, F for front and R for Rear (This one is purely cosmetic, it doesn't affect handling like the other wheel settings)  
+
+### 6. Last part is only if you know what you're doing or at least know bit of the chassis you're working on, if unsure DON'T TOUCH IT PLEASE.  
+![7](https://github.com/user-attachments/assets/c6c49bcd-c08a-40fd-ba23-394d68e444d1)
+
+- Stiffness = How hard the suspension is, everything above 3 is quite hard and can be really problematic depending the FPS of the player
+- Damping = How limited the suspension movement is, as it can be hard but move slowly and vice-versa, 2 is a bit slow but good for hard suspensions, the lower this value is, the slower the suspension will move, the higher, the more wobbly the suspension will be.
+- GearTable = Do not touch this under any circumstances, unless you know what you're doing or want to break the entire powertrain of the chassis.
+
+### 7. Once you understood everything here, here's my configuration for the car.
+
+![image](https://github.com/user-attachments/assets/51887765-0dfb-4fb3-a462-e862ceb951d3)
+
+### 8. It's nearly done, now you also need to copy the stats to the script here
+
+![image](https://github.com/user-attachments/assets/28d3e0ab-fd1c-4a69-bcbb-20fe36f2d94b)
+
+## You just have to do this each time you change a value in the config files, double check both files to be sure ⚠️
+
+![Enregistrement 2024-12-31 034028](https://github.com/user-attachments/assets/b87c5d4d-c5f0-48df-9c89-f7958e8debe3)
+
+## Extras 💥
+
+### If you have headlights or brakelights parts you want to animate, you can rename them to "Headlights" and "Brakelights", the chassis will automatically recognize them and setup them automaticaly, but for now it must be a single part name like this for both situations, or just one part will work.
+
+![image](https://github.com/user-attachments/assets/b19285f7-efe3-4b4b-8198-077f6aa5f328)
+
+
+## Controls 🎮
+
+### So far the controls are:  
+- V key to flip instantly the car up side down (must be stationary)
+- Left shift key for handbrake
+- H key for headlights (if there's any headlights parts)
+
+#### No controller/Mobile support at this moment, will be added in future versions (It's planned).
 
 ##  ✉️ Contribution and Contact
 If you want to contribute to this project or help me with updates, you can contact me at Kyariko@outlook.fr or via koma_shi on Discord.
