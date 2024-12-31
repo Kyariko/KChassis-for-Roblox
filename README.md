@@ -1,4 +1,4 @@
-# KChassis-for-Roblox
+# K-Chassis
 Kchassis is a basic raycast chassis implementation for Roblox games.
 ## 🔰 Download 
 Head to [releases](https://github.com/Kyariko/KChassis-for-Roblox/releases) to get your package.
