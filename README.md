@@ -65,7 +65,7 @@ To finish this, select "MainSteer", "Steer", the 4 wheels (FR,FL,RR,RL), "Engine
 ![20_1](https://github.com/user-attachments/assets/c0c96cee-3944-4133-a06f-a5080dd4f96c)
 #
 Et voila ! You finished the setup to get a working car, but it may look weird like here, wrong wheel sizes and more details to fix.  
-For all of theses you suggest you to go to this part to see how to [customize](https://github.com/Kyariko/KChassis-for-Roblox/edit/main/README.md#%EF%B8%8F-customization) the config of your car to fix all details.  
+For all of theses you suggest you to go to this part to see how to [customize](https://github.com/Kyariko/KChassis-for-Roblox/tree/main#%EF%B8%8F-customization) the config of your car to fix all details.  
 ![20](https://github.com/user-attachments/assets/1365c70a-9d21-49e9-930e-5b4f163a42ec)
 ## 🛠️ Customization
 
