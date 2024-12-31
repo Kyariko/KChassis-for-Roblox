@@ -1,6 +1,6 @@
 # K-Chassis
 Kchassis is a basic and free raycast chassis implementation for Roblox games, made by Kyariko  
-![image](https://github.com/user-attachments/assets/ef617e1b-e709-4c7a-92c7-8aa33170a3bf)
+![ezgif-7-2ad1702c3d_1](https://github.com/user-attachments/assets/e154403a-3ac1-4f00-bf3c-5f2fe59370ef)
 
 ## 🔰 Download 
 Head to [releases](https://github.com/Kyariko/KChassis-for-Roblox/releases) to get your package.
