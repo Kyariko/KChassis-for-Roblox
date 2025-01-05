@@ -2,6 +2,11 @@
 Kchassis is a basic and free raycast chassis implementation for Roblox games, made by Kyariko  
 ![ezgif-7-2ad1702c3d_1](https://github.com/user-attachments/assets/e154403a-3ac1-4f00-bf3c-5f2fe59370ef)
 
+## Sections
+- ### [Setup](https://github.com/Kyariko/KChassis-for-Roblox/edit/main/README.md#-setup)
+- ### [Customization](https://github.com/Kyariko/KChassis-for-Roblox/edit/main/README.md#%EF%B8%8F-customization)
+- ### [Extras](https://github.com/Kyariko/KChassis-for-Roblox/edit/main/README.md#extras-)
+- ### [Controls](https://github.com/Kyariko/KChassis-for-Roblox/edit/main/README.md#controls-)
 ## 🔰 Download 
 Head to [releases](https://github.com/Kyariko/KChassis-for-Roblox/releases) to get your package.
 ## 🔨 Setup
