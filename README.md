@@ -121,54 +121,50 @@ For all of theses you suggest you to go to this part to see how to [customize](h
 ![1](https://github.com/user-attachments/assets/d1139f5c-d236-4ae6-8c96-f49b82c6a31f)
 
 ### 1. First let's go into the chassis then go to KChassis/CarScripts and then we gonna first open "CMain".  
-![2](https://github.com/user-attachments/assets/c72f467c-d550-49cd-b0ab-abc6c286803a)
+![Capture d'écran 2025-01-05 214434](https://github.com/user-attachments/assets/de9b40fa-eb03-4124-8cb1-76e590e2a898)
 
-### 2. Then, once you open the script, it should look like this at the very top, it may be scary but don't worry we just changing few values to configure the car.
-![3](https://github.com/user-attachments/assets/ad9489cb-4f44-40d3-8f14-db2c0725f75a)
+### 2. Then, once you open the script, it should look like this, it may be scary but don't worry we just changing one value.
+![Capture d'écran 2025-01-05 214357](https://github.com/user-attachments/assets/cd67fb32-949b-47d3-98ba-300aa0ca45d5)
 
 ### 3. This part is telling where the car is, for now it's in workspace, but if you put the car in a folder, like "Cars" for example, it would be something like:  
 ```local CarLocation = workspace.Cars```
-![4](https://github.com/user-attachments/assets/0342620d-a0a2-4529-80c3-344ba65b17dc)
+![image](https://github.com/user-attachments/assets/03bd72c5-fddc-4f3a-a920-e13cc8b8ecb8)
 
-### 4. From now on, you just have to change values here (we will see the exceptions later).
-![Capture d'écran 2024-12-31 025502](https://github.com/user-attachments/assets/b2b603b7-587e-4955-8906-0c4054542abd)
+### 4. From now on, you just have to open settings here.
+![image](https://github.com/user-attachments/assets/fc113d4a-7d14-448f-8090-818a604ce0b5)
 
-### 5. First part called "Main", is where you can:  
+### 5. Once opened, you have all stats you can change here (except GearTable).  
+![Capture d'écran 2025-01-05 214333](https://github.com/user-attachments/assets/f62be728-23e2-4294-8e23-193806120666)
 
-![5](https://github.com/user-attachments/assets/6bdf12c2-1dba-40d9-8451-2a1605a2a737)
+### 6. First part called "Main", is where you can:  
+
+![Capture d'écran 2025-01-05 214338](https://github.com/user-attachments/assets/67e3e918-ab50-4093-a7da-3e0a97556748)
 - Power = change Power of the car  
 - Gears = the amount of gears (needs to be above 1)  
 - MaxSpeed = set the maximum speed of the car  
 - Grip = the level of grip the car has while driving  
 - Handling = How strong/fast/easily the car turns  
 - ShiftingTime = How fast the car changes gears
+- BrakeForce = How strong the car slow down
 
-### 5. Second part called "Wheels", is where you can:  
-![6](https://github.com/user-attachments/assets/c3f1afd8-251b-4a2e-a97d-47eeba5de43b)
+### 7. Second part called "Wheels", is where you can:  
+![Capture d'écran 2025-01-05 214342](https://github.com/user-attachments/assets/39b97a20-2aef-4ea2-836f-0870bede9859)
 
-- RimID = Specify the Id of the wheel model located in servertorage/Wheels/"YourWheelModel"/Main/ID  
+- Front/Back RimID = Specify the Id of the wheel model located in servertorage/Wheels/"YourWheelModel"/Main/ID  
 - F/R Height = Height of the car, F for front and R for Rear
 - F/R Size = Size of the car wheels, F for front and R for Rear  
 - F/R Thickness = Thickness of the car wheels, F for front and R for Rear (This one is purely cosmetic, it doesn't affect handling like the other wheel settings)  
 
-### 6. Last part is only if you know what you're doing or at least know bit of the chassis you're working on, if unsure DON'T TOUCH IT PLEASE.  
+### 8. Last part is only if you know what you're doing or at least know bit of the chassis you're working on, if unsure DON'T TOUCH IT PLEASE.  
 ![7](https://github.com/user-attachments/assets/c6c49bcd-c08a-40fd-ba23-394d68e444d1)
 
 - Stiffness = How hard the suspension is, everything above 3 is quite hard and can be really problematic depending the FPS of the player
 - Damping = How limited the suspension movement is, as it can be hard but move slowly and vice-versa, 2 is a bit slow but good for hard suspensions, the lower this value is, the slower the suspension will move, the higher, the more wobbly the suspension will be.
 - GearTable = Do not touch this under any circumstances, unless you know what you're doing or want to break the entire powertrain of the chassis.
 
-### 7. Once you understood everything here, here's my configuration for the car.
+### 9. Once you understood everything here, here's my configuration for the car.
 
 ![image](https://github.com/user-attachments/assets/51887765-0dfb-4fb3-a462-e862ceb951d3)
-
-### 8. It's nearly done, now you also need to copy the stats to the script here
-
-![image](https://github.com/user-attachments/assets/28d3e0ab-fd1c-4a69-bcbb-20fe36f2d94b)
-
-## You just have to do this each time you change a value in the config files, double check both files to be sure ⚠️
-
-![Enregistrement 2024-12-31 034028](https://github.com/user-attachments/assets/b87c5d4d-c5f0-48df-9c89-f7958e8debe3)
 
 ## Extras 💥
 ### If you want to change the Engine sound, you can open the Kchassis model and go in "Engine" (KChassis/Engine/EngineSample), and in SoundId you can put a sound of your choice, it must be a revloop (prefereably at high rpm)
