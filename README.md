@@ -162,9 +162,7 @@ For all of theses you suggest you to go to this part to see how to [customize](h
 - Damping = How limited the suspension movement is, as it can be hard but move slowly and vice-versa, 2 is a bit slow but good for hard suspensions, the lower this value is, the slower the suspension will move, the higher, the more wobbly the suspension will be.
 - GearTable = Do not touch this under any circumstances, unless you know what you're doing or want to break the entire powertrain of the chassis.
 
-### 9. Once you understood everything here, here's my configuration for the car.
-
-![image](https://github.com/user-attachments/assets/51887765-0dfb-4fb3-a462-e862ceb951d3)
+### 9. Now you know everything about configurating the car, you just have to test and see what works for cars you rig, Goodluck 👋
 
 ## Extras 💥
 ### If you want to change the Engine sound, you can open the Kchassis model and go in "Engine" (KChassis/Engine/EngineSample), and in SoundId you can put a sound of your choice, it must be a revloop (prefereably at high rpm)
