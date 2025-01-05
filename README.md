@@ -4,6 +4,7 @@ Kchassis is a basic and free raycast chassis implementation for Roblox games, ma
 
 ## Sections
 - ### [Setup](https://github.com/Kyariko/KChassis-for-Roblox#-setup)
+- ### [Setup Wheels](https://github.com/Kyariko/KChassis-for-Roblox#-setup-wheels)
 - ### [Customization](https://github.com/Kyariko/KChassis-for-Roblox#%EF%B8%8F-customization)
 - ### [Extras](https://github.com/Kyariko/KChassis-for-Roblox#extras-)
 - ### [Controls](https://github.com/Kyariko/KChassis-for-Roblox#controls-)
@@ -74,6 +75,46 @@ For a first try, i suggest a empty baseplate to get the basics.
 ### 20. Et voila ! You finished the setup to get a working car, but it may look weird like here, wrong wheel sizes and more details to fix.  
 For all of theses you suggest you to go to this part to see how to [customize](https://github.com/Kyariko/KChassis-for-Roblox/tree/main#%EF%B8%8F-customization) the config of your car to fix all details.  
 ![20](https://github.com/user-attachments/assets/1365c70a-9d21-49e9-930e-5b4f163a42ec)
+
+## 🔨🛞 Setup Wheels
+
+### 1. In thew package you downloaded, in "ServerStorage/Wheels" you have one Wheel model.  
+![Wheel_0](https://github.com/user-attachments/assets/2ad1220f-f525-4d8c-a50b-eda89aaa178f)
+
+## 2. The model should containt Theses parts, a "Rim" part, a "Tire" part and a "Main" part.  
+![Wheel_1](https://github.com/user-attachments/assets/144003a1-9864-4818-93d8-c3ccc771ef5a)
+
+## 3. Now you checked everything, place copy the model to "Workspace" to start rigging it.  
+![Wheel_2](https://github.com/user-attachments/assets/0e0a93b0-d581-4a06-bd01-f276bb43435f)
+
+## 4. Now get your wheel model, if you don't have any, again im giving you one i made for free.  
+![Wheel_3](https://github.com/user-attachments/assets/affad85e-e2f5-432a-8c6e-2ecae45ca9df)
+
+## 5. After that open "CopyThisModelToRigWheels" model, and move "Main" into your wheel model.  
+![Wheel_4](https://github.com/user-attachments/assets/99fa694b-0baa-477e-8081-2bffc94ba231)
+
+## 6. Then, make it the primary part of your model like this.  
+![Wheel_5](https://github.com/user-attachments/assets/5e5490a4-c15f-47ef-b969-cd29bf247c0c)
+
+## 7. Next, you remane the tire mesh of your wheel model to "Tire" and the rim part to "Rim".  
+![Wheel_6](https://github.com/user-attachments/assets/3250726f-b409-4499-b1d0-e4d49749c066)
+
+## 8. Once you're done, you just copy "Tire" position, and paste it into "Main" position.  
+![Wheel_7](https://github.com/user-attachments/assets/ab03e42f-36c5-49f1-9a9a-01e5a5994615)
+
+## 9. After that you open "Main" in the wheel model and change "ID" value.  
+## WARNING ⚠️ Two wheels models can't have the same ID value, otherwise wheels rigging will break as it can't choose between 2 same values.  
+![Wheel_8](https://github.com/user-attachments/assets/bbea23ab-79f3-483f-a48d-c019b1f30af2)
+
+## 10. Now we will check orientation, so all you have to do is right click "Main", and the click on "Show Orientation Indicator".  
+![Wheel_9](https://github.com/user-attachments/assets/0b533a6d-ed38-44cd-9c88-d6c5f77b42c5)
+
+## 11. And then, when you look at the front face of your wheel model, the blue cursor (with the small F letter in it), should be pointing to the left, if not, just rotate the "Main" part to align it properly.  
+![Wheel_10](https://github.com/user-attachments/assets/1b5f4c65-9937-485a-8d36-2f62ac8acaa4)
+
+## 12. Finally, you can put the rigged Wheel model back to ServerStorage/Wheels  
+![image](https://github.com/user-attachments/assets/afe6931c-e665-4f32-942b-f4c2ec9c03ca)
+
 ## 🛠️ Customization
 
 ### So, for now if you just finished the setup, then you should have this beautifull car waiting to be properly configurated.  
